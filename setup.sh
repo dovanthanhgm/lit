@@ -50,3 +50,12 @@ npm i yarn -g
 
 cd ~/code/datasync_ui/
 yarn
+
+mkdir ~/.ssh
+cd ~/.ssh
+ssh-keygen -t rsa -b 2048 -f id_rsa -P ""
+echo "Host bitbucket.org" > config
+echo "  AddKeysToAgent yes" >> config
+echo "  IdentityFile ~/.ssh/id_rsa" >> config
+
+cd ~/code/
