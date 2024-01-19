@@ -1,3 +1,4 @@
+cd ~/
 sudo apt update -y && sudo apt upgrade -y
 git clone https://github.com/dovanthanhgm/lit.git
 mkdir code
