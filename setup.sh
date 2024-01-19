@@ -1,5 +1,4 @@
-sudo apt update && sudo apt upgrade -y
-sudo apt install git -y
+sudo apt update -y && sudo apt upgrade -y
 git clone https://github.com/dovanthanhgm/lit.git
 mkdir code
 cd lit
