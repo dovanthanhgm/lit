@@ -85,5 +85,5 @@ python-amazon-sp-api==0.18.4
 crisp-api==1.1.18
 django-background-tasks
 django-admin-list-filter-dropdown
-validators
-pycryptodome
+# validators
+# pycryptodome
